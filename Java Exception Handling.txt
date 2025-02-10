@@ -1,0 +1,54 @@
+//1.Divide two numbers:
+
+package exceptionhandling;
+
+public class Exceptionhandling {
+
+	public static void main(String[] args) {
+		int num1=10;
+		int num2=0;
+		try
+		{
+			int result=num1/num2;
+			System.out.println("Output:"+result);
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Zero Division Error");
+		}
+		System.out.println("Program Executed");
+
+	}
+
+}
+
+//2. Check the person is able to vote:
+
+package exceptionhandling;
+
+public class Exceptionhandling {
+
+	public static void main(String[] args) {
+		int age=18;
+		try
+		{
+			if(age<18)
+			{
+			System.out.println("Not Eligible to Vote");
+			}
+			else
+			{
+			System.out.println("Eligible to Vote");
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error Occured");
+		}
+		System.out.println("Program Executed");
+
+	}
+
+}
+
+3. 
